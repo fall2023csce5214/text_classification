@@ -69,6 +69,7 @@ for future users.
    ```sh
    brew install wget
    git lfs track "*.zip"
+   git lfs track "*gz"
    git add .gitattributes
    ```
    
