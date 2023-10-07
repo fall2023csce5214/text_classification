@@ -62,11 +62,6 @@ for future users.
 
 6. Git LFS
    ```sh
-   brew install git-lfs
-   ```
-   
-7. Git LFS
-   ```sh
    brew install wget
    git lfs track "*.zip"
    git lfs track "*gz"
