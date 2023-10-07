@@ -110,13 +110,13 @@ Here is an example to launch docker to run the unit test on the command line.
 
 ```sh
 docker-compose up -d
-docker-compose exec text-class-web-service bash
+docker-compose exec text-classification-web-service bash
 ```
 
 Here is an example to launch docker to populate the database and launch the web service.
 ```sh
 docker-compose up -d
-docker-compose logs -f text-class-web-service
+docker-compose logs -f text-classification-web-service
 ```
 
 Then hit the following URL to test the web service.  Note, wait until the web service starts.  You will see a message like the following:

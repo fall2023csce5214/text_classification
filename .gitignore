@@ -172,3 +172,4 @@ textcat/
 tokenizer
 vocab/
 s2v_old/
+.bash_history
