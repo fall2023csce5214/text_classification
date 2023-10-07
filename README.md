@@ -6,7 +6,7 @@ TBD
 
 | Type                | Sub Type | Algorithm                                      |
 |---------------------|----------|------------------------------------------------|
-| Supervised Learning | NLP      | [CNN](docker/lstm/lstm_stock_market_prediction/) |
+| Supervised Learning | NLP      | [CNN](text_classification/) |
 
 ### Built With
 
