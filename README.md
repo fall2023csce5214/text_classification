@@ -148,7 +148,7 @@ INFO:     Application startup complete.
 [Larry Johnson](mailto:johnson.larry.l@gmail.com)
 <br>
 
-Project Link: [https://github.com/fall2023csce5214/ltsm_stock_market_prediction/](https://github.com/fall2023csce5214/ltsm_stock_market_prediction/)
+Project Link: [https://github.com/fall2023csce5214/text_classification/](https://github.com/fall2023csce5214/text_classification/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
