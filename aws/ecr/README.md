@@ -91,3 +91,8 @@ Once you've made these adjustments, the user should have the required permission
         }
     ]
 }
+
+$ aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/csce5214-repo
+$  docker build . -t  text_classification--text-classification-web-service:latest --platform linux/amd64 
+$ docker tag text_classification--text-classification-web-service:latest 491914570594.dkr.ecr.us-east-1.amazonaws.com/csce5214-repo:latest
+$ docker push <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/csce5214-repo
