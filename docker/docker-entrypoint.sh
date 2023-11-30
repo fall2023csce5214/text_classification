@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Comment out the following line for trouble-shooting locally
 poetry run python -m uvicorn main:app --reload --port=$WEB_SERVICE_PORT --host=0.0.0.0
