@@ -16,6 +16,9 @@ This section lists all major frameworks/libraries used to bootstrap this project
 * [![Jupyter][Jupyter.org]][Jupyter-url]
 * [![Miniconda][Miniconda.com]][Miniconda-url]
 * [![Docker][Docker.com]][Docker-url]
+* [![AWS][AWS.Amazon.com]][AWS-url]
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,11 +67,13 @@ for future users.
    ```sh
    brew install wget
    git lfs track "*.zip"
-   git lfs track "*gz"
+   git lfs track "*.gz"
    git add .gitattributes
    ```
    
 8. [Docker, including docker-compose](https://docs.docker.com/engine/install/)
+
+9. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ### Installation
 
@@ -170,3 +175,7 @@ Project Link: [https://github.com/fall2023csce5214/text_classification/](https:/
 [Docker-url]:https://www.docker.com/
 
 [Docker.com]:https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+
+[AWS-url]:https://aws.amazon.com/
+
+[AWS.Amazon.com]:https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
