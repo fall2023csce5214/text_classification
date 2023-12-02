@@ -3,7 +3,10 @@ FROM ubuntu:latest as compilesys
 WORKDIR "/text_classification"
 
 COPY text_classification /text_classification/text_classification
-COPY main.py /text_classification/main.py
+COPY main.py /text_classification
+COPY spacy /text_classification/spacy
+COPY BERT /text_classification/BERT
+COPY train_BERT.py /text_classification
 COPY poetry.lock /text_classification/poetry.lock
 COPY pyproject.toml /text_classification/pyproject.toml
 COPY docker-entrypoint.sh /text_classification/docker-entrypoint.sh

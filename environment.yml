@@ -13,6 +13,5 @@ dependencies:
   - seaborn
   - scikit-learn
   - scipy
-  - sense2vec
   - spacy
   - textblob
