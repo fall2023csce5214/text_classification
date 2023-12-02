@@ -164,12 +164,7 @@ cython_debug/
 reddit_vectors-1.1.0/
 
 explacy.py*
-config.cfg
-meta.json
 *.html
 *.png
-textcat/
-tokenizer
-vocab/
 s2v_old/
 .bash_history

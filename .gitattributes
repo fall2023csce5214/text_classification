@@ -1,3 +1,7 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *gz filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
 model/bbv1/distil_BERT_model.bin filter=lfs diff=lfs merge=lfs -text
+=======
+docker/BERT/BBv1/distil_BERT_model.bin filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 1b1eb83 (#8 - Integrate spacy with Fast API)
